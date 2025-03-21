@@ -12,11 +12,12 @@ begin
     readln(name);
     assign(ent,name);
     rewrite(ent);
-    writeln('ingrese numero');
+    writeln('ingrese num');
     readln(num);
     while (num <> 3000) do begin
         write(ent,num);
         writeln('ingrese numero');
 		readln(num);
     end;
+    close(ent);
 end.
