@@ -1,4 +1,4 @@
-program ej5;
+program ej5y6;
 type
 celular = record
     codigo: integer;
