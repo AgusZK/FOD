@@ -1,4 +1,4 @@
-program ej3;
+program ej3y4;
 type
     empleados = record
         nro: integer;
